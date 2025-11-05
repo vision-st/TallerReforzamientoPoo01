@@ -1,0 +1,65 @@
+# Archivos compilados Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+hs_err_pid*.log
+
+# Directorios de build
+bin/
+out/
+target/
+build/
+dist/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm / PyCharm / etc.
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+.m2/
+target/
+
+# Archivos temporales del SO
+.DS_Store  # macOS
+Thumbs.db  # Windows
+ehthumbs.db
+Desktop.ini
+
+# Archivos de depuración
+*.stackdump
+
+# Archivos de VS Code (adicionales)
+.vscode-test/
