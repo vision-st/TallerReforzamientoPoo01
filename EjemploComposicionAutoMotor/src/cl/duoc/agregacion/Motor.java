@@ -2,6 +2,7 @@ package cl.duoc.agregacion;
 
 public class Motor {
 
+    //encapsulamiento
     private String id;
     private boolean encendido;
 
@@ -27,8 +28,15 @@ public class Motor {
         }
     }
 
-    public String getId() {
-        return id;
+    public String getId(String usuario) {
+        String idAutorizado;
+        //consumimos un repositorio de base de dato
+        if(usuario == "usuario-admin-001"){
+            idAutorizado = id;
+        }else{
+            return "0";
+        }
+        return idAutorizado;
     }
 
     public boolean isEncendido() {

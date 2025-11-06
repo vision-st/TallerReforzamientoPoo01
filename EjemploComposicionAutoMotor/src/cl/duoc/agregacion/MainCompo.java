@@ -6,6 +6,8 @@ public class MainCompo {
         Motor m1 = new Motor("M1-TURBO");
         Motor m2 = new Motor("M2-POTENCIA");
 
+        String elid = m1.getId("usuario-admin-001");
+
         Auto auto1 = new Auto(m1);
         Auto auto2 = new Auto(m2);
 

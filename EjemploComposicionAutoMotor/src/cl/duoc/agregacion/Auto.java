@@ -19,7 +19,7 @@ public class Auto {
             motor.encender();
         }
 
-        System.out.println("El auto avanza usando el motor : " + motor.getId());
+        System.out.println("El auto avanza usando el motor : " + motor.getId("sdsdd"));
     }
 
 
